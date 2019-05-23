@@ -1,0 +1,313 @@
+<view class="container">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">丝薄纸尿裤</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_s" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">S</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_m" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">M</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">L</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">XL</p>
+          </view>
+
+          <view class='contentRow'>
+            <input class="numInput" name="thin_t_s" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试S</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_t_m" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试M</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_t_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试L</p>
+          </view>
+
+        </view>
+      </view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">丝薄拉拉裤</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_l_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">L</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_l_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">XL</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_l_xxl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">XXL</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="thin_tl_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试XL</p>
+          </view>
+        </view>
+      </view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">丝柔纸尿裤</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_nb" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">NB</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_s" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">S</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_m" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">M</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">L</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">XL</p>
+          </view>
+
+          <view class='contentRow'>
+            <input class="numInput" name="soft_t_s" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试S</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_t_m" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试M</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_t_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试L</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_t_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试XL</p>
+          </view>
+        </view>
+      </view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">丝柔拉拉裤</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_l_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">L</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_l_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">XL</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_l_xxl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">XXL</p>
+          </view>
+
+          <view class='contentRow'>
+            <input class="numInput" name="soft_tl_l" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试L</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_tl_xl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试XL</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_tl_xxl" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">试XXL</p>
+          </view>
+        </view>
+      </view>
+
+
+      <view class="sectionItem">
+        <p class="sectionTitle">湿巾/安睡裤/防溢乳垫</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="wipes_small" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">小</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="wipes_big" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">大</p>
+          </view>
+
+          <view class='contentRow'>
+            <input class="numInput" name="women_pants" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">安</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="breast_pad" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">防</p>
+          </view>
+        </view>
+      </view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">卫生巾</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="pants_190" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">190</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="pants_240" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">240</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="pants_280" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">280</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="pants_400" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">400</p>
+          </view>
+        </view>
+      </view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">柔纸巾/洗衣液/洗衣皂/吸汗巾</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="soft_tissue" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle"> 纸</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="laundry_detergent" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">液</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="laundry_soap" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">皂</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="sweatband" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">汗</p>
+          </view>
+
+        </view>
+      </view>
+
+      <view class="sectionItem">
+        <p class="sectionTitle">洗发沐浴露/护臀膏/面霜</p>
+        <view class='contentContainer'>
+          <view class='contentRow'>
+            <input class="numInput" name="shampoo" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">露</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="destin" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">膏</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="cream_pink" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">粉</p>
+          </view>
+          <view class='contentRow'>
+            <input class="numInput" name="cream_blue" bindblur="bindInput" type='number' maxlength='3' placeholder="0">
+            </input>
+            <p class="maTitle">蓝</p>
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+    <view class="sectionTitle">包装单位</view>
+    <radio-group name="packing_group">
+      <label class='Rintext intext'>
+        <radio value="bag" checked="true" />包/支/瓶/盒</label>
+      <label class='Rintext intext'>
+        <radio value="box" />箱</label>
+    </radio-group>
+
+    <view class="section">
+      <picker bindchange="bindPickerSellChange" value="{{indexSell}}" range="{{array}}">
+        <view class="sectionTitle">
+          代理级别：{{array[indexSell]}}
+        </view>
+      </picker>
+      <picker bindchange="bindPickerBuyChange" value="{{indexBuy}}" range="{{array}}">
+        <view class="sectionTitle">
+          顾客级别：{{array[indexBuy]}}
+        </view>
+      </picker>
+    </view>
+    <view class="sumShowSection">
+      <view class="sumLabel">代理总价:</view>
+      <view class='sumPriceLabel'>
+        <text name="sumSellMoney">{{sumSellMoney}}</text>
+      </view>
+      <view class="sumLabel">顾客总价:</view>
+      <view class='sumPriceLabel'>
+        <text name="sumBuyMoney">{{sumBuyMoney}}</text>
+      </view>
+    </view>
+    <view class="sumShowSection">
+      <view class="sumLabel">差价:</view>
+      <view class='sumPriceLabel'>
+        <text name="sumDMoney">{{sumDMoney}}</text>
+      </view>
+    </view>
+    <view class="calcButtonSetion">
+      <button class="calcButton" formType="reset">重置</button>
+      <button class="calcButton" formType="submit">计算</button>
+    </view>
+  </form>
+</view>

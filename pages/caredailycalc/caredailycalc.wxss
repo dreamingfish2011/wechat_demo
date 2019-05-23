@@ -1,0 +1,109 @@
+/* pages/index/detail.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  padding: 20rpx 0;
+}
+
+.sectionItem{
+  display: block;
+  margin: 20rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  border: 1px solid #888888;
+  box-shadow: 5rpx 5rpx  5rpx #888888;
+}
+.contentContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+
+
+.contentRow{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 110rpx;
+  width: 110rpx;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  margin-bottom: 30rpx;
+  margin-left: 60rpx; 
+}
+
+
+.maTitle{
+  margin: auto 5rpx 5rpx auto;
+  font-size: 25rpx;
+  color: black;
+}
+
+.numInput{
+  margin: 10rpx -20rpx 0 10rpx;
+  font-size: 40rpx;
+  color:  #f23030;
+}
+
+.sectionTitle{
+  display: block;
+  margin: 30rpx auto 40rpx 30rpx; 
+  font-size: 30rpx;
+  font-weight: 350;
+  color: #f23030;
+}
+
+.intext{
+  color: black;
+  font-size: 30rpx;
+  font-weight: 350;
+}
+
+.Rintext{
+  margin-left: 20rpx;
+  margin-right: 60rpx;
+}
+.sumShowSection{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20rpx;
+  align-self: center;
+  align-items: center;
+}
+
+.sumPriceLabel{
+  color: black;
+  font-size: 60rpx;
+  font-weight: 500;
+  width: 200rpx;
+  height: 100rpx;
+}
+
+.sumLabel{
+  font-size: 30rpx;
+  font-weight: 350;
+  color: black;
+}
+
+.calcButtonSetion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20rpx;
+  align-self: center;
+}
+
+.calcButton{
+  font-size: 40rpx;
+  color: #f23030;
+  width: 200rpx;
+  height: 100rpx;
+  border: 1px solid #f23030;
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 30rpx;
+}
